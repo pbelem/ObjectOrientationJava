@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3938c04-2ddc-40f0-9ced-204d602432dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src17/Enums/WorkerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src17/Service/HourContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src17/aplication/Program7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src17/entities/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src17/entities/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src16/aplication/Program6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src16/aplication/Program6.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rxXyzzNwVl9sYPxKP6nyhJfpNq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/Repositories/LearningJavaPOO/LearningJavaPOO&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Repositories\LearningJavaPOO\LearningJavaPOO" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3938c04-2ddc-40f0-9ced-204d602432dd" name="Changes" comment="" />
+      <created>1737501962243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737501962243</updated>
+      <workItem from="1737501963287" duration="1074000" />
+      <workItem from="1737503056135" duration="1510000" />
+      <workItem from="1737506633926" duration="855000" />
+      <workItem from="1737548403135" duration="24000" />
+      <workItem from="1737557874760" duration="452000" />
+      <workItem from="1737581535777" duration="46000" />
+      <workItem from="1737582010190" duration="14000" />
+      <workItem from="1737586573003" duration="768000" />
+      <workItem from="1737587956617" duration="1643000" />
+      <workItem from="1737589774072" duration="475000" />
+      <workItem from="1737590261377" duration="885000" />
+      <workItem from="1737591161921" duration="74000" />
+      <workItem from="1737591253129" duration="506000" />
+      <workItem from="1737591773071" duration="591000" />
+      <workItem from="1737592384604" duration="67000" />
+      <workItem from="1737592457363" duration="41000" />
+      <workItem from="1737593626793" duration="83000" />
+      <workItem from="1737593715618" duration="134000" />
+      <workItem from="1737593855161" duration="101000" />
+      <workItem from="1737593963285" duration="23000" />
+      <workItem from="1737593992657" duration="52000" />
+      <workItem from="1737594065322" duration="818000" />
+      <workItem from="1737594908574" duration="28000" />
+      <workItem from="1737594950484" duration="160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -30,7 +30,7 @@ public class Program6 {
 		SalaryService salaryService = new SalaryService(taxService, pensionService);
 		
 		double netSalary = salaryService.netSalary(employee);
-		System.out.printf("Net salary + %.2f%n", netSalary);
+		System.out.printf("Net salary = %.2f%n", netSalary);
 
 		
 		
