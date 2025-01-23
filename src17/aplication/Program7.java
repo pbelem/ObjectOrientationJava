@@ -1,4 +1,4 @@
-package aplicattion;
+package aplication;
 
 import Service.HourContract;
 import entities.Worker;
