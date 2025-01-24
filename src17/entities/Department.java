@@ -2,7 +2,7 @@ package entities;
 
 public class Department {
 
-	String name;
+	private String name;
 
 	public Department() {
 	}

@@ -1,16 +1,14 @@
 package aplication;
 
-import Service.HourContract;
-import entities.Worker;
+import util.Register;
 
 public class Program7 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-//        Service.HourContract.totalValue();
-		Worker worker = new Worker();
-		HourContract contract = new HourContract();
-		worker.addContract(contract);
+        Register.Department();
+        Register.Worker();
+        Register.Contract();
 
-	}
+    }
 }
