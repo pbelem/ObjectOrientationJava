@@ -15,16 +15,17 @@ public class Register {
     static Department department;
     static Worker worker;
     static HourContract contract;
+    static String departmentName;
 
     public static void Department() {
 
-        String departmentName;
-
         System.out.println("Enter department data:");
         System.out.println("Enter department's name: ");
-        departmentName = sc.next();
+        departmentName = sc.nextLine();
 
-        department = new Department(departmentName);
+        Department department = new Department();
+        worker.setDepartment(department);
+//        Department department = new Department(departmentName);
 
     }
 
@@ -33,7 +34,6 @@ public class Register {
         String name;
         WorkerLevel level;
         double baseSalary;
-
 
         System.out.println("Enter worker data:");
         System.out.println("Name: ");
@@ -44,8 +44,6 @@ public class Register {
         baseSalary = sc.nextDouble();
 
         worker = new Worker(name, level, baseSalary);
-
-
     }
 
 
@@ -61,8 +59,8 @@ public class Register {
         System.out.println("How many contractsNumber to this worker? ");
         contractsNumber = sc.nextInt();
 
-        int i = 0;
-        while (i < contractsNumber) {
+        int I = 0;
+        while (I < contractsNumber) {
 
             System.out.println("Enter contract #" + contractsNumber + " data:");
 
@@ -82,12 +80,15 @@ public class Register {
             System.out.println("Duration (hours): ");
             duration = sc.nextInt();
 
-            contract = new HourContract(date, valuePerHour, duration);
+//            contract = new HourContract(date, valuePerHour, duration);
+            contract = new HourContract();
             worker.addContract(contract);
 
-            i++;
+
         }
 
+
     }
+
 
 }

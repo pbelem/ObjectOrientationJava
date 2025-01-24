@@ -1,5 +1,7 @@
 package service;
 
+import entities.Worker;
+
 import java.time.LocalDate;
 
 public class HourContract {
@@ -7,21 +9,19 @@ public class HourContract {
     private LocalDate date;
     private double valuePerHour;
     private int hours;
+    private double totalIncome;
 
-    HourContract contract;
+    public HourContract() {}
 
     public void setContract(HourContract contract) {
-        this.contract = contract;
-    }
-
-    public HourContract(LocalDate date, double valuePerHour, int hours) {
-        this.date = date;
-        this.valuePerHour = valuePerHour;
-        this.hours = hours;
+        this.date = contract.date;
+        this.valuePerHour = contract.valuePerHour;
+        this.hours = contract.hours;
     }
 
     public double totalValue() {
-        return hours * valuePerHour;
+        totalIncome += (hours * valuePerHour);
+        return totalIncome;
     }
 
 }

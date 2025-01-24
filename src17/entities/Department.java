@@ -2,12 +2,13 @@ package entities;
 
 public class Department {
 
-	private String name;
+	String departmentName;
 
 	public Department() {
 	}
 
-	public Department(String name) {
-		this.name = name;
+	public void setDepartmentName(Department department) {
+		this.departmentName = department.departmentName;
 	}
+
 }
