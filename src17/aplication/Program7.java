@@ -1,14 +1,16 @@
 package aplication;
 
+
 import util.Register;
+import java.text.ParseException;
+import java.util.Locale;
+
 
 public class Program7 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
 
-        Register.Department();
-        Register.Worker();
-        Register.Contract();
-
+        Locale.setDefault(Locale.US);
+        Register.WorkerRegister();
     }
 }

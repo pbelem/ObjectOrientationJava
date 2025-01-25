@@ -1,27 +1,54 @@
 package service;
 
-import entities.Worker;
-
-import java.time.LocalDate;
+import java.util.Date;
 
 public class HourContract {
 
-    private LocalDate date;
+    private Date date;
     private double valuePerHour;
     private int hours;
     private double totalIncome;
 
-    public HourContract() {}
+    public HourContract(Date contractDate, double valuePerHour, int duration) {
+        this.date = contractDate;
+        this.valuePerHour = valuePerHour;
+        this.hours = duration;
+    }
 
-    public void setContract(HourContract contract) {
-        this.date = contract.date;
-        this.valuePerHour = contract.valuePerHour;
-        this.hours = contract.hours;
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
+    public void setHours(int hours) {
+        this.hours = hours;
+    }
+
+    public double getTotalIncome() {
+        return totalIncome;
+    }
+
+    public void setTotalIncome(double totalIncome) {
+        this.totalIncome = totalIncome;
+    }
+
+    public double getValuePerHour() {
+        return valuePerHour;
+    }
+
+    public void setValuePerHour(double valuePerHour) {
+        this.valuePerHour = valuePerHour;
     }
 
     public double totalValue() {
-        totalIncome += (hours * valuePerHour);
-        return totalIncome;
+        return valuePerHour * hours;
     }
 
 }

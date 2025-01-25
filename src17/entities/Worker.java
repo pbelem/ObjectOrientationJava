@@ -1,50 +1,91 @@
 package entities;
 
-import enums.WorkerLevel;
 import service.HourContract;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
+
 
 public class Worker {
 
     String name;
-    WorkerLevel level;
+    String workerLevel;
     double baseSalary;
-    HourContract contract;
-    Department department;
 
-    public Worker(String name, WorkerLevel level, double baseSalary) {
+    Department department;
+    private List<HourContract> contracts = new ArrayList<>();
+
+    public Worker() {
+
+    }
+
+    public Worker(String name, String workerLevel, double baseSalary, Department department) {
         this.name = name;
-        this.level = level;
+        this.workerLevel = workerLevel;
         this.baseSalary = baseSalary;
+        this.department = department;
+    }
+
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+
+    public void setBaseSalary(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getWorkerLevel() {
+        return workerLevel;
+    }
+
+    public void setWorkerLevel(String workerLevel) {
+        this.workerLevel = workerLevel;
+    }
+
+
+    public Department getDepartment() {
+        return department;
     }
 
     public void setDepartment(Department department) {
         this.department = department;
     }
 
-    public void setDepartmentName(Department department) {
-        this.department.setDepartmentName(department);
+    public List<HourContract> getContracts() {
+        return contracts;
     }
 
     public void addContract(HourContract contract) {
-        contract.setContract(contract);
+        contracts.add(contract);
     }
 
     public void removeContract(HourContract contract) {
-        contract.setContract(null);
-
+        contracts.remove(contract);
     }
 
-    public double income(LocalDate date) {
+    public double income(int year, int month) {
+        double sum = baseSalary;
+        Calendar cal = Calendar.getInstance();
+        for (HourContract c : contracts) {
+            cal.setTime(c.getDate());
+//            int c_day = cal.get(Calendar.YEAR);
+//            int c_month = cal.get(Calendar.MONTH) + 1;
+            if (cal.get(Calendar.YEAR) == year && 1 + cal.get(Calendar.MONTH) == month) {
+//            if (c_day == year && c_month == month) {
+                sum += c.totalValue();
+            }
+        }
 
-        int month = date.getMonthValue();
-        int year = date.getYear();
-
-        return contract.totalValue();
+        return sum;
     }
 
 }
