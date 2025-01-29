@@ -29,6 +29,13 @@
     <content url="file://$MODULE_DIR$/../src17">
       <sourceFolder url="file://$MODULE_DIR$/../src17" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../src18">
+      <sourceFolder url="file://$MODULE_DIR$/../src18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../src18/src19" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../src19">
+      <sourceFolder url="file://$MODULE_DIR$/../src19" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../src2">
       <sourceFolder url="file://$MODULE_DIR$/../src2" isTestSource="false" />
     </content>
