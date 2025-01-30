@@ -10,7 +10,7 @@ public class Product2 {
     public Product2() {
     }
 
-    Product2(String nameProduct, double price) {
+    public Product2(String nameProduct, double price) {
         this.nameProduct = nameProduct;
         this.price = price;
     }
