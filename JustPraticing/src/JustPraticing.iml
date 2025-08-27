@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/application" isTestSource="false" packagePrefix="aplication" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="CreatingMethodAndNewClass" />
+    <orderEntry type="module" module-name="InstantiatingObject" />
+    <orderEntry type="module" module-name="JustPraticing2" />
+    <orderEntry type="module" module-name="PraticingAgain" />
+    <orderEntry type="module" module-name="Exercise" />
+    <orderEntry type="module" module-name="ArrayList" />
+    <orderEntry type="module" module-name="DependencyInjection" />
+    <orderEntry type="module" module-name="Exercise3" />
+    <orderEntry type="module" module-name="Reflection" />
+    <orderEntry type="module" module-name="CreatingInstance" />
+    <orderEntry type="module" module-name="PraticingAndCreatingoToString" />
+    <orderEntry type="module" module-name="Enums" />
+    <orderEntry type="module" module-name="PraticingDate" />
+    <orderEntry type="module" module-name="Exercise2" />
+  </component>
+</module>
