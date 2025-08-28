@@ -4,17 +4,18 @@ import entities.account.Account;
 import entities.account.BusinessAccount;
 import entities.account.SavingsAccount;
 
-public class Program {
+//final prevents the class from being extended, and overridden in methods
+public final class Program {
     public static void main(String[] args) {
 
         Account account = new Account(1001, "Mark", 0.0);
-        BusinessAccount bacc = new BusinessAccount(1002, "Bob", 500.0);
+        BusinessAccount bacc = new BusinessAccount(1002, "Bob", 500.0, 200.0);
 
 //        UPCASTING
         Account acc1 = bacc;
         acc1.getHolder();
 
-        Account acc2 = new BusinessAccount(1003, "John", 200.0);
+        Account acc2 = new BusinessAccount(1003, "John", 200.0, 100.0);
 //        how the businesss account is also an account, this operation is possible
 
         Account acc3 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
