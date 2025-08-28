@@ -42,5 +42,22 @@ public class Program {
         } else {
             System.out.println("Savings account is not equal");
         }
+
+//        without override
+        Account account1 = new Account(1005, "Jorge", 1000.0);
+        account1.withdraw(200.0);
+        System.out.println(account1.getBalance());
+
+//        with override
+        Account account2 = new SavingsAccount(1006, "Maria", 1000.0, 0.01);
+        account2.withdraw(200.0);
+        System.out.println(account2.getBalance());
+
+//        reusing super method
+        Account account3 = new BusinessAccount(1007, "Pablo", 1000.0, 500.0);
+        account3.withdraw(200.0);
+        System.out.println(account3.getBalance());
+
     }
+
 }

@@ -20,4 +20,9 @@ public class SavingsAccount extends Account{
     public void updateBalance(Double newBalance) {
         balance += balance * interestRate;
     }
+
+    @Override
+    public void withdraw(Double amount) {
+        this.balance -= amount;
+    }
 }
