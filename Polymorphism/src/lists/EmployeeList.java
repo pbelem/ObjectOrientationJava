@@ -7,20 +7,19 @@ import java.util.List;
 
 public class EmployeeList {
 
-    List<Employee> EmployeeList = new LinkedList<>();
+    private final List<Employee> employeeList = new LinkedList<>();
 
     public void addEmployee(Employee emp) {
-        EmployeeList.add(emp);
+        employeeList.add(emp);
     }
 
     public void removeEmployee(Employee emp) {
-        EmployeeList.remove(emp);
+        employeeList.remove(emp);
     }
 
     public void displayList() {
-        for (Employee emp : EmployeeList) {
-            System.out.println("Employee name: " + emp.getNameEmployee() + "\nand employee payment: " + emp.payment());
+        for (Employee emp : employeeList) {
+            System.out.printf("%s - $ %.2f%n", emp.getNameEmployee(), emp.payment());
         }
     }
-
 }
