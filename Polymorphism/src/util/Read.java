@@ -33,13 +33,11 @@ public class Read {
             double perHour = Double.parseDouble(input.nextLine());
 
             if (option == 1) {
-                Employee employee = new Employee(name, hours, perHour);
-                employeeList.addEmployee(employee);
+                employeeList.addEmployee(new Employee(name, hours, perHour));
             } else if (option == 2) {
                 System.out.print("Additional Charge: ");
                 double additionalCharge = Double.parseDouble(input.nextLine());
-                Employee employee = new OutsourceEmployee(name, hours, perHour, additionalCharge);
-                employeeList.addEmployee(employee);
+                employeeList.addEmployee(new OutsourceEmployee(name, hours, perHour, additionalCharge));
             } else {
                 System.out.println("Invalid option. Please re-enter data for this employee.");
                 i--;
