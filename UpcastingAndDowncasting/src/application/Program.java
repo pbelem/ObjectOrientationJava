@@ -8,7 +8,8 @@ import entities.account.SavingsAccount;
 public final class Program {
     public static void main(String[] args) {
 
-        Account account = new Account(1001, "Mark", 0.0);
+//        you cant initiate an abstract class
+//        Account account = new Account(1001, "Mark", 0.0);
         BusinessAccount bacc = new BusinessAccount(1002, "Bob", 500.0, 200.0);
 
 //        UPCASTING
@@ -45,9 +46,11 @@ public final class Program {
         }
 
 //        without override
+        /*
         Account account1 = new Account(1005, "Jorge", 1000.0);
         account1.withdraw(200.0);
         System.out.println(account1.getBalance());
+         */
 
 //        with override
         Account account2 = new SavingsAccount(1006, "Maria", 1000.0, 0.01);
